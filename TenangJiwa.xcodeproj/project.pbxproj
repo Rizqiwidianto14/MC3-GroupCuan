@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC75800F24C6D82600AFBFE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75800E24C6D82600AFBFE8 /* AppDelegate.swift */; };
+		EC75801124C6D82600AFBFE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75801024C6D82600AFBFE8 /* SceneDelegate.swift */; };
+		EC75801424C6D82600AFBFE8 /* TenangJiwa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC75801224C6D82600AFBFE8 /* TenangJiwa.xcdatamodeld */; };
+		EC75801624C6D82600AFBFE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75801524C6D82600AFBFE8 /* ContentView.swift */; };
+		EC75801824C6D82700AFBFE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC75801724C6D82700AFBFE8 /* Assets.xcassets */; };
+		EC75801B24C6D82700AFBFE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC75801A24C6D82700AFBFE8 /* Preview Assets.xcassets */; };
+		EC75801E24C6D82700AFBFE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC75801C24C6D82700AFBFE8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC75800B24C6D82600AFBFE8 /* TenangJiwa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenangJiwa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC75800E24C6D82600AFBFE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC75801024C6D82600AFBFE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC75801324C6D82600AFBFE8 /* TenangJiwa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TenangJiwa.xcdatamodel; sourceTree = "<group>"; };
+		EC75801524C6D82600AFBFE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC75801724C6D82700AFBFE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC75801A24C6D82700AFBFE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC75801D24C6D82700AFBFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC75801F24C6D82700AFBFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC75802624C6ECC400AFBFE8 /* AvenirLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirLight.otf; sourceTree = "<group>"; };
+		EC75802724C6ECC400AFBFE8 /* AvenirBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirBook.otf; sourceTree = "<group>"; };
+		EC75802824C6ECC400AFBFE8 /* AvenirRoman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirRoman.otf; sourceTree = "<group>"; };
+		EC75802924C6ECC400AFBFE8 /* AvenirMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirMedium.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC75800824C6D82600AFBFE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC75800224C6D82600AFBFE8 = {
+			isa = PBXGroup;
+			children = (
+				EC75800D24C6D82600AFBFE8 /* TenangJiwa */,
+				EC75800C24C6D82600AFBFE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC75800C24C6D82600AFBFE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC75800B24C6D82600AFBFE8 /* TenangJiwa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC75800D24C6D82600AFBFE8 /* TenangJiwa */ = {
+			isa = PBXGroup;
+			children = (
+				EC75802524C6ECA900AFBFE8 /* Fonts */,
+				EC75800E24C6D82600AFBFE8 /* AppDelegate.swift */,
+				EC75801024C6D82600AFBFE8 /* SceneDelegate.swift */,
+				EC75801524C6D82600AFBFE8 /* ContentView.swift */,
+				EC75801724C6D82700AFBFE8 /* Assets.xcassets */,
+				EC75801C24C6D82700AFBFE8 /* LaunchScreen.storyboard */,
+				EC75801F24C6D82700AFBFE8 /* Info.plist */,
+				EC75801224C6D82600AFBFE8 /* TenangJiwa.xcdatamodeld */,
+				EC75801924C6D82700AFBFE8 /* Preview Content */,
+			);
+			path = TenangJiwa;
+			sourceTree = "<group>";
+		};
+		EC75801924C6D82700AFBFE8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC75801A24C6D82700AFBFE8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC75802524C6ECA900AFBFE8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EC75802724C6ECC400AFBFE8 /* AvenirBook.otf */,
+				EC75802624C6ECC400AFBFE8 /* AvenirLight.otf */,
+				EC75802924C6ECC400AFBFE8 /* AvenirMedium.otf */,
+				EC75802824C6ECC400AFBFE8 /* AvenirRoman.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC75800A24C6D82600AFBFE8 /* TenangJiwa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC75802224C6D82700AFBFE8 /* Build configuration list for PBXNativeTarget "TenangJiwa" */;
+			buildPhases = (
+				EC75800724C6D82600AFBFE8 /* Sources */,
+				EC75800824C6D82600AFBFE8 /* Frameworks */,
+				EC75800924C6D82600AFBFE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TenangJiwa;
+			productName = TenangJiwa;
+			productReference = EC75800B24C6D82600AFBFE8 /* TenangJiwa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC75800324C6D82600AFBFE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Group Cuan";
+				TargetAttributes = {
+					EC75800A24C6D82600AFBFE8 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = EC75800624C6D82600AFBFE8 /* Build configuration list for PBXProject "TenangJiwa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC75800224C6D82600AFBFE8;
+			productRefGroup = EC75800C24C6D82600AFBFE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC75800A24C6D82600AFBFE8 /* TenangJiwa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC75800924C6D82600AFBFE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC75801E24C6D82700AFBFE8 /* LaunchScreen.storyboard in Resources */,
+				EC75801B24C6D82700AFBFE8 /* Preview Assets.xcassets in Resources */,
+				EC75801824C6D82700AFBFE8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC75800724C6D82600AFBFE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC75800F24C6D82600AFBFE8 /* AppDelegate.swift in Sources */,
+				EC75801124C6D82600AFBFE8 /* SceneDelegate.swift in Sources */,
+				EC75801624C6D82600AFBFE8 /* ContentView.swift in Sources */,
+				EC75801424C6D82600AFBFE8 /* TenangJiwa.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC75801C24C6D82700AFBFE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC75801D24C6D82700AFBFE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC75802024C6D82700AFBFE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC75802124C6D82700AFBFE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC75802324C6D82700AFBFE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TenangJiwa/Preview Content\"";
+				DEVELOPMENT_TEAM = J747CHZ6CY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TenangJiwa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.groupcuan.TenangJiwa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC75802424C6D82700AFBFE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TenangJiwa/Preview Content\"";
+				DEVELOPMENT_TEAM = J747CHZ6CY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TenangJiwa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.groupcuan.TenangJiwa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC75800624C6D82600AFBFE8 /* Build configuration list for PBXProject "TenangJiwa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC75802024C6D82700AFBFE8 /* Debug */,
+				EC75802124C6D82700AFBFE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC75802224C6D82700AFBFE8 /* Build configuration list for PBXNativeTarget "TenangJiwa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC75802324C6D82700AFBFE8 /* Debug */,
+				EC75802424C6D82700AFBFE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC75801224C6D82600AFBFE8 /* TenangJiwa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC75801324C6D82600AFBFE8 /* TenangJiwa.xcdatamodel */,
+			);
+			currentVersion = EC75801324C6D82600AFBFE8 /* TenangJiwa.xcdatamodel */;
+			path = TenangJiwa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC75800324C6D82600AFBFE8 /* Project object */;
+}
