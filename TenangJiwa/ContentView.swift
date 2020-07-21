@@ -20,9 +20,9 @@ struct ContentView: View {
                     .alignmentGuide(HorizontalAlignment.center) { _ in 180 }
                     .foregroundColor(Color.init("DarkBlue"))
                 
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Button(action: {print("Printed")}) {
                     Image("firstaid")
-                    .resizable()
+                        .resizable()
                         .aspectRatio(contentMode: .fit)
                     
                 }
@@ -36,7 +36,7 @@ struct ContentView: View {
                 Spacer()
                 categoryList()
             }
-
+            
         }
     }
 }
@@ -46,8 +46,8 @@ struct TopPart: View {
         HStack() {
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                 Image("book")
-                  .alignmentGuide(HorizontalAlignment.center) { _ in -150 }
-                    .foregroundColor(Color.init("DarkBlue"))
+                    .alignmentGuide(HorizontalAlignment.center) { _ in -150 }
+                .foregroundColor(Color.init("DarkBlue"))
                 
             }
         }
@@ -60,9 +60,23 @@ struct categoryList: View {
     }
 }
 
+struct circularProgress: View{
+    @Binding var progress: Float
+    var body: some View{
+        Circle()
+            .stroke(lineWidth: 30)
+            .foregroundColor(.red)
+            .opacity(0.3)
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group{
+            ContentView().previewDevice("iPhone 11")
+            ContentView().previewDevice("iPhone 8 Plus")
+            ContentView().previewDevice("iPhone SE")
+        }
     }
 }
 
