@@ -34,7 +34,8 @@ struct ContentView: View {
                     .foregroundColor(Color.init("DarkBlue"))
                 
                 Spacer()
-                categoryList()
+//                categoryList()
+                circularProgress()
             }
             
         }
@@ -61,12 +62,17 @@ struct categoryList: View {
 }
 
 struct circularProgress: View{
-    @Binding var progress: Float
     var body: some View{
+        ZStack{
         Circle()
-            .stroke(lineWidth: 30)
+            .stroke(lineWidth: 10)
+            .frame(width: 50, height: 50)
             .foregroundColor(.red)
             .opacity(0.3)
+            Button(action: {print("played")}){
+                Image(systemName: "play")
+            }
+        }
     }
 }
 
