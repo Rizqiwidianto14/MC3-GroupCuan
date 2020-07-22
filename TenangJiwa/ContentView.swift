@@ -15,7 +15,7 @@ struct ContentView: View {
                 TopPart()
                 
                 Text("My First Aid")
-                    .font(Font.custom("AvenirMedium", size: 28))
+                    .font(Font.custom("Avenir Heavy", size: 28))
                     .bold()
                     .alignmentGuide(HorizontalAlignment.center) { _ in 180 }
                     .foregroundColor(Color.init("DarkBlue"))
@@ -28,7 +28,7 @@ struct ContentView: View {
                 }
                 
                 Text("Category")
-                    .font(Font.custom("AvenirMedium", size: 28))
+                    .font(Font.custom("Avenir Heavy", size: 28))
                     .bold()
                     .alignmentGuide(HorizontalAlignment.center) { _ in 180 }
                     .foregroundColor(Color.init("DarkBlue"))
@@ -45,7 +45,7 @@ struct ContentView: View {
 struct TopPart: View {
     var body: some View {
         HStack() {
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+            Button(action: {print("pindah ke my journal")}) {
                 Image("book")
                     .alignmentGuide(HorizontalAlignment.center) { _ in -150 }
                 .foregroundColor(Color.init("DarkBlue"))
