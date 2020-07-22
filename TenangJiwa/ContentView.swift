@@ -15,28 +15,29 @@ struct ContentView: View {
                 TopPart()
                 
                 Text("My First Aid")
-                    .font(Font.custom("AvenirMedium", size: 28))
+                    .font(Font.custom("Avenir Heavy", size: 28))
                     .bold()
                     .alignmentGuide(HorizontalAlignment.center) { _ in 180 }
                     .foregroundColor(Color.init("DarkBlue"))
                 
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Button(action: {print("Printed")}) {
                     Image("firstaid")
-                    .resizable()
+                        .resizable()
                         .aspectRatio(contentMode: .fit)
                     
                 }
                 
                 Text("Category")
-                    .font(Font.custom("AvenirMedium", size: 28))
+                    .font(Font.custom("Avenir Heavy", size: 28))
                     .bold()
                     .alignmentGuide(HorizontalAlignment.center) { _ in 180 }
                     .foregroundColor(Color.init("DarkBlue"))
                 
                 Spacer()
-                categoryList()
+//                categoryList()
+                circularProgress()
             }
-
+            
         }
     }
 }
@@ -44,10 +45,10 @@ struct ContentView: View {
 struct TopPart: View {
     var body: some View {
         HStack() {
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+            Button(action: {print("pindah ke my journal")}) {
                 Image("book")
-                  .alignmentGuide(HorizontalAlignment.center) { _ in -150 }
-                    .foregroundColor(Color.init("DarkBlue"))
+                    .alignmentGuide(HorizontalAlignment.center) { _ in -150 }
+                .foregroundColor(Color.init("DarkBlue"))
                 
             }
         }
@@ -60,9 +61,28 @@ struct categoryList: View {
     }
 }
 
+struct circularProgress: View{
+    var body: some View{
+        ZStack{
+        Circle()
+            .stroke(lineWidth: 10)
+            .frame(width: 50, height: 50)
+            .foregroundColor(.red)
+            .opacity(0.3)
+            Button(action: {print("played")}){
+                Image(systemName: "play")
+            }
+        }
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group{
+            ContentView().previewDevice("iPhone 11")
+            ContentView().previewDevice("iPhone 8 Plus")
+            ContentView().previewDevice("iPhone SE")
+        }
     }
 }
 

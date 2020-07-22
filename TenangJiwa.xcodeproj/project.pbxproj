@@ -14,6 +14,7 @@
 		EC75801824C6D82700AFBFE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC75801724C6D82700AFBFE8 /* Assets.xcassets */; };
 		EC75801B24C6D82700AFBFE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC75801A24C6D82700AFBFE8 /* Preview Assets.xcassets */; };
 		EC75801E24C6D82700AFBFE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC75801C24C6D82700AFBFE8 /* LaunchScreen.storyboard */; };
+		F49E4A8024C8297C00B18BA0 /* Avenir Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = F49E4A7F24C8297C00B18BA0 /* Avenir Heavy.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EC75802724C6ECC400AFBFE8 /* AvenirBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirBook.otf; sourceTree = "<group>"; };
 		EC75802824C6ECC400AFBFE8 /* AvenirRoman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirRoman.otf; sourceTree = "<group>"; };
 		EC75802924C6ECC400AFBFE8 /* AvenirMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AvenirMedium.otf; sourceTree = "<group>"; };
+		F49E4A7F24C8297C00B18BA0 /* Avenir Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir Heavy.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				EC75802724C6ECC400AFBFE8 /* AvenirBook.otf */,
 				EC75802624C6ECC400AFBFE8 /* AvenirLight.otf */,
 				EC75802924C6ECC400AFBFE8 /* AvenirMedium.otf */,
+				F49E4A7F24C8297C00B18BA0 /* Avenir Heavy.otf */,
 				EC75802824C6ECC400AFBFE8 /* AvenirRoman.otf */,
 			);
 			path = Fonts;
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC75801E24C6D82700AFBFE8 /* LaunchScreen.storyboard in Resources */,
+				F49E4A8024C8297C00B18BA0 /* Avenir Heavy.otf in Resources */,
 				EC75801B24C6D82700AFBFE8 /* Preview Assets.xcassets in Resources */,
 				EC75801824C6D82700AFBFE8 /* Assets.xcassets in Resources */,
 			);
